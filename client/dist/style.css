@@ -18,13 +18,22 @@ body {
 }
 
 .header-container {
+  font-family: 'Lato', sans-serif;
   position: relative;
+}
+
+.header-intro {
+  color: white;
+  font-size: 5vw;
+  margin: 0 0 0 3vw;
+  position: absolute;
+  top: 50%;
 }
 
 .header-title {
   color: white;
   font-size: 3vw;
-  margin-left: 3vw;
+  margin: 0 0 0 3vw;
 }
 
 .title-container {

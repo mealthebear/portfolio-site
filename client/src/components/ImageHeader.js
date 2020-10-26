@@ -9,7 +9,10 @@ const ImageHeader = () => {
           <button className="contact-button">Contact</button>
         </div>
 
-        
+        <p className="header-intro">
+          Welcome to my site!<br />
+          Learn more about me below.
+        </p>
 
         <img
           className="bear-image"
