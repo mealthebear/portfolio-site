@@ -7,3 +7,31 @@ body {
   display: block;
   width: 100%;
 }
+
+.contact-button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5vw;
+  margin: 2vw 4vw;
+  padding: 1vw 2vw;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-title {
+  color: white;
+  font-size: 3vw;
+  margin-left: 3vw;
+}
+
+.title-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
