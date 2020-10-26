@@ -1,9 +1,10 @@
+import ImageHeader from './ImageHeader.js';
 import React, { useState } from 'react';
 
 const App = () => {
   return (
     <div>
-      Welcome to my website!
+      <ImageHeader />
     </div>
   )
 }
