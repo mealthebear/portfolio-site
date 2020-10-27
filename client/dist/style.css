@@ -74,8 +74,21 @@ body {
   width: 33%;
 }
 
+.project-container {
+  background-color: lightyellow;
+  padding: 2vw 5vw;
+}
+
 .project-description {
+  font-size: 1.75vw;
   padding: 0 3vw;
+}
+
+.project-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 5vw;
+  margin: 0 0 5vw 0;
+  text-align: center;
 }
 
 .project-image {
@@ -84,16 +97,14 @@ body {
 }
 
 .project-title {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
-.projects-container {
-  background-color: lightyellow;
+.projects-list {
   display: flex;
   flex-flow: wrap;
   font-family: 'Lato', sans-serif;
   justify-content: space-between;
-  padding: 2vw 5vw;
 }
 
 .title-container {

@@ -26,10 +26,13 @@ const ProjectsList = () => {
     },
   ];
   return (
-    <div className="projects-container">
-      {personalProjects.map((project, index) => {
-        return <Project project={project} />
-      })}
+    <div className="project-container">
+      <h2 className="project-header">Check out my projects below!</h2>
+      <div className="projects-list">
+        {personalProjects.map((project, index) => {
+         return <Project project={project} />
+        })}
+      </div>
     </div>
   )
 }
