@@ -68,6 +68,24 @@ body {
   margin: 0 0 0 3vw;
 }
 
+.project {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.projects-container {
+  background-color: lightyellow;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+}
+
 .title-container {
   align-items: center;
   display: flex;
