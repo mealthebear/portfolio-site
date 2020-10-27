@@ -15,6 +15,7 @@ const ImageHeader = () => {
         </p>
 
         <img
+          alt="Bear sitting on grass in a forest"
           className="bear-image"
           src="/client/dist/images/sitting_bear.jpg"
         />
