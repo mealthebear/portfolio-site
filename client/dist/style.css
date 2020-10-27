@@ -74,14 +74,24 @@ body {
   width: 33%;
 }
 
+.project-description {
+  padding: 0 3vw;
+}
+
 .project-image {
+  cursor: pointer;
   width: 100%;
+}
+
+.project-title {
+  font-size: 3vw;
 }
 
 .projects-container {
   background-color: lightyellow;
   display: flex;
   flex-flow: wrap;
+  font-family: 'Lato', sans-serif;
   justify-content: space-between;
   padding: 2vw 5vw;
 }

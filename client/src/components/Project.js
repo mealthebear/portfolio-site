@@ -4,12 +4,12 @@ const Project = ({ project }) => {
   return (
     <>
       <div className="project">
-        <h3>{project.title}</h3>
+        <h3 className="project-title">{project.title}</h3>
         <img
           className="project-image"
           src={project.img}
         />
-        <p>{project.description}</p>
+        <p className="project-description">{project.description}</p>
       </div>
     </>
   )
