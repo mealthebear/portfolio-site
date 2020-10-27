@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
 
-const ImageHeader = () => {
+const ImageHeader = (props) => {
   return (
     <>
       <div className="header-container">
         <div className="title-container">
-          <h2 className="header-title">Dennis Chatkhan</h2>
-          <button className="contact-button">Contact</button>
+          <h2 
+            className="header-title"
+          >
+            Dennis Chatkhan
+          </h2>
+          <button 
+            className="contact-button"
+            onClick={() => props.toggleHomePage(false)}
+          >
+            Contact
+          </button>
         </div>
 
         <p className="header-intro">
