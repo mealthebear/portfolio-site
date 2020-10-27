@@ -5,7 +5,7 @@ body {
 
 .beach-image {
   display: inline-block;
-  height: 46vw;
+  height: 50vw;
   width: 45%;
 }
 
@@ -21,6 +21,8 @@ body {
 
 .bio-text {
   font-size: 1.5vw;
+  letter-spacing: 0.5px;
+  line-height: 2vw;
   margin: 4vw 0;
 }
 
