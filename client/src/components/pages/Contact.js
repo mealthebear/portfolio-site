@@ -8,7 +8,7 @@ const Contact = (props) => {
         onClick={() => props.toggleHomePage(true)}>
         Dennis Chatkhan
       </h1>
-      <h2>Want to connect? Feel free to drop a line on LinkedIn or Angelist!</h2>
+      <h2>Want to connect? Feel free to drop a line on LinkedIn or AngelList!</h2>
       <p>
         <strong>LinkedIn:</strong>{' '}
         <a
