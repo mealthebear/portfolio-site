@@ -11,10 +11,10 @@ const Contact = (props) => {
           onClick={() => props.toggleHomePage(true)} 
           type="button">Home
         </button>
-        <h2 className="contact-subheading">
-        Want to connect? Feel free to drop a line on LinkedIn or AngelList!
-        </h2>
       </div>
+      <h2 className="contact-subheading">
+        Want to connect? Feel free to drop a line on LinkedIn or AngelList!
+      </h2>
       <ContactMethodList />
       {/* <p>
         <strong>LinkedIn:</strong>{' '}

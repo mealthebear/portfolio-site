@@ -88,12 +88,11 @@ body {
   flex-flow: row wrap;
   align-items: flex-end;
   justify-content: space-between;
-  margin: 0 0 5vw;
 }
 
 .contact-subheading {
   font-size: clamp(16px, 2vw, 24px);
-  margin: 0 auto;
+  margin: 0 auto 5vw auto;
 }
 
 .grey {
