@@ -15,7 +15,9 @@ body {
 }
 
 .bio-container {
-  background-color: #dbeeff;
+  background-color: #fcfcfc;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 0.25vw;
   padding: 6vw 3vw;
 }
 
@@ -94,7 +96,7 @@ body {
 }
 
 .project-container {
-  background-color: lightyellow;
+  background-color: #f4f4f4;
   padding: 2vw 5vw;
 }
 
