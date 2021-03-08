@@ -45,6 +45,7 @@ body {
 .contact-button {
   background-color: #F2F2F2;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 1.5vw;
   margin: 2vw 4vw;
@@ -58,16 +59,46 @@ body {
 }
 
 .contact-container {
-  background-color: #dbeeff;
+  background-color: #f9f9f9;
   font-family: 'Work Sans', sans-serif;
   min-height: 100vh;
-  padding: 3vw;
+  padding: 1vw 3vw;
   text-align: center;
 }
 
 .contact-header {
-  cursor: pointer;
+  display: inline-block;
+  font-size: clamp(24px, 3vw, 48px);
   margin: 0 0 2vw 0;
+}
+
+.contact-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.contact-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.contact-nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0 0 5vw;
+}
+
+.contact-subheading {
+  font-size: clamp(16px, 2vw, 24px);
+  margin: 0 auto;
+}
+
+.grey {
+  background-color: #CCC;
+  font-size: clamp(16px, 2.5vw, 30px);
 }
 
 .header-container {
@@ -87,6 +118,12 @@ body {
   color: #F2F2F2;
   font-size: 3vw;
   margin: 0 0 0 3vw;
+}
+
+.personal-contact {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-size: clamp(12px, 2vw, 24px);  
+  width: 25%;
 }
 
 .project {

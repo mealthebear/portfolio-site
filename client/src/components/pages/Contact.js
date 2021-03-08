@@ -1,15 +1,22 @@
+import ContactMethodList from '../ContactMethodList.js';
 import React, { useState } from 'react';
 
 const Contact = (props) => {
   return (
     <div className="contact-container">
-      <h1
-        className="contact-header"
-        onClick={() => props.toggleHomePage(true)}>
-        Dennis Chatkhan
-      </h1>
-      <h2>Want to connect? Feel free to drop a line on LinkedIn or AngelList!</h2>
-      <p>
+      <div className="contact-nav">
+        <h1 className="contact-header">Dennis Chatkhan</h1>
+        <button
+          className="contact-button grey"
+          onClick={() => props.toggleHomePage(true)} 
+          type="button">Home
+        </button>
+        <h2 className="contact-subheading">
+        Want to connect? Feel free to drop a line on LinkedIn or AngelList!
+        </h2>
+      </div>
+      <ContactMethodList />
+      {/* <p>
         <strong>LinkedIn:</strong>{' '}
         <a
           className="contact-link"
@@ -26,7 +33,7 @@ const Contact = (props) => {
         >
           https://angel.co/u/dennis-chatkhan
         </a>
-      </p>
+      </p> */}
     </div>
   )
 }
